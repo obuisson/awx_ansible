@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+  - name: install ncdu
+    yum: name=ncdu state=latest 
